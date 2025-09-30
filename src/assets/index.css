@@ -1,3 +1,14 @@
+/* Component & page styles */
+/* Keep @import statements at the very top */
+@import './style/pages/ToyDetails.css';
+@import './style/pages/ToyEdit.css';
+@import './style/pages/ToyIndex.css';
+@import './style/cmps/ToyList.css'; 
+@import './style/cmps/ToyPreview.css';
+@import './style/cmps/ToyFilter.css';
+@import './style/cmps/AppHeader.css';
+@import './style/pages/Home.css';
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +77,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+ 

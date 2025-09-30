@@ -1,0 +1,29 @@
+.toy-preview {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.toy-preview .toy-name {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.toy-preview .toy-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.toy-preview .toy-price {
+  font-weight: 600;
+}
+
+.toy-preview .toy-stock.in {
+  color: #2aa44f;
+}
+
+.toy-preview .toy-stock.out {
+  color: #c62828;
+}
+

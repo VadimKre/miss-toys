@@ -1,0 +1,12 @@
+.toy-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.toy-list-item {
+  margin: 0;
+}
+
