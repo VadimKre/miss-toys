@@ -1,12 +1,63 @@
 .toy-filter {
-  display: flex;
-  gap: 0.75rem;
-  align-items: center;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(93, 109, 126, 0.1);
+    margin-bottom: 1.25rem;
+    color: var(--color-slate);
 }
 
 .toy-filter label {
-  display: inline-flex;
-  gap: 0.5rem;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-weight: 500;
+    color: var(--color-slate);
 }
 
+.toy-filter input:not([type='checkbox']) {
+    border: 1px solid rgba(93, 109, 126, 0.25);
+    border-radius: 24px;
+    padding: 0.5rem 0.9rem;
+    font: inherit;
+    background-color: #fff;
+    color: var(--color-slate);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.toy-filter select {
+    border: 1px solid rgba(93, 109, 126, 0.25);
+    border-radius: 16px;
+    padding: 0.4rem 0.6rem;
+    font: inherit;
+    color: var(--color-slate);
+    background-color: #fff;
+    min-height: 3.5rem;
+}
+
+.toy-filter select:focus,
+.toy-filter input:not([type='checkbox']):focus {
+    outline: none;
+}
+
+.toy-filter input:not([type='checkbox'])::placeholder {
+    color: rgba(93, 109, 126, 0.6);
+}
+
+.toy-filter .check-field {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.toy-filter .check-field input[type='checkbox'] {
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 6px;
+    accent-color: var(--color-sky-mist);
+    margin: 0;
+}

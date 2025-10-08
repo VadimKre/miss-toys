@@ -1,0 +1,44 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem clamp(1rem, 4vw, 2.5rem);
+    background: linear-gradient(135deg, var(--color-sky-mist), #ffffff);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow:
+        0 10px 25px rgba(168, 218, 220, 0.4),
+        0 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header-container h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--color-slate);
+    letter-spacing: 0.05em;
+}
+
+.header-link-container {
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.header-link {
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+    /* color: var(--color-slate); */
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.header-link:hover {
+    color: var(--color-peach);
+}
+
+/* .header-link.active {
+    background-color: var(--color-slate);
+    color: #fff;
+} */

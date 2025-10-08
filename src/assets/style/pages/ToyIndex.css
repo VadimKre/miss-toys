@@ -1,8 +1,4 @@
 .toy-index {
-  padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
-
-.toy-index h1 {
-  margin: 0 0 0.5rem;
-}
-

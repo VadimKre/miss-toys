@@ -26,8 +26,6 @@ export function App() {
                         <Route path='/toys' element={<ToyIndex />}></Route>
                         <Route path='/toys/:toyID' element={<ToyDetails />}></Route>
                         <Route path='/toys/edit/:toyID' element={<ToyEdit />}></Route>
-
-
                     </Routes>
                 </main>
 
